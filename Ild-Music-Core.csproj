@@ -6,10 +6,11 @@
   </PropertyGroup>
 
 <ItemGroup>
-  <ProjectReference Include="..\ShareInstances\ShareInstances.csproj">
+  <ProjectReference Include="..\..\Ild-Music.ShareInstances\ShareInstances.csproj">
   	<Private>false</Private>
   	<ExcludeAssets>runtime</ExcludeAssets>
   </ProjectReference>
+  <!-- <ProjectReference Include="..\Ild-Music.ShareInstances\ShareInstances.csproj" /> -->
 </ItemGroup>
 
 <ItemGroup>

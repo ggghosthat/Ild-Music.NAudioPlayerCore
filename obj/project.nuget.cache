@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8+6vSA1okK4u+IPDeV5P/hNFn7FbuGD1VwxU1xoEpuJZqOoCkWT73uy8xnLH8FwYnm/1IvoTKdp19kWfqj8IMQ==",
+  "dgSpecHash": "Fdh5+shxjf/a79K5OXV3qq5rPSMBsJWktZBHzBWLLCoCAdf/O7e6YqkeXuzu9SbuIFpPEg+KkQf+UWFeH7JsfQ==",
   "success": true,
-  "projectFilePath": "E:\\ild_music\\Ild-Music\\NAudioPlayerCore\\Ild-Music-Core.csproj",
+  "projectFilePath": "E:\\ild_music\\zzz\\Ild-Music\\dependencies\\Ild-Music.NAudioPlayerCore\\Ild-Music-Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ildar\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ildar\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
@@ -15,10 +15,7 @@
     "C:\\Users\\ildar\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\ildar\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\ildar\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
-    "C:\\Users\\ildar\\.nuget\\packages\\taglibsharp\\2.2.0\\taglibsharp.2.2.0.nupkg.sha512",
-    "C:\\Users\\ildar\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.14\\microsoft.netcore.app.runtime.win-x64.6.0.14.nupkg.sha512",
-    "C:\\Users\\ildar\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.14\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.14.nupkg.sha512",
-    "C:\\Users\\ildar\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.14\\microsoft.aspnetcore.app.runtime.win-x64.6.0.14.nupkg.sha512"
+    "C:\\Users\\ildar\\.nuget\\packages\\taglibsharp\\2.2.0\\taglibsharp.2.2.0.nupkg.sha512"
   ],
   "logs": []
 }
