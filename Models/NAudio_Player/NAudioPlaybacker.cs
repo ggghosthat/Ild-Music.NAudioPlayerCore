@@ -141,7 +141,10 @@ namespace NAudioPlayerCore.Models
         public void OnVolumeChanged(float volume)
         {
             if (_device != null)
+            {
                 _device.Volume = volume;
+                Volume = _device.Volume;
+            }
         }
 
         private void OnPlaybackStopped(object sender, StoppedEventArgs e)

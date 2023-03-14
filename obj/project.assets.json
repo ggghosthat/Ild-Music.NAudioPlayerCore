@@ -504,8 +504,8 @@
     },
     "ShareInstances/1.0.0": {
       "type": "project",
-      "path": "../../Ild-Music.ShareInstances/ShareInstances.csproj",
-      "msbuildProject": "../../Ild-Music.ShareInstances/ShareInstances.csproj"
+      "path": "../Ild-Music.ShareInstances/ShareInstances.csproj",
+      "msbuildProject": "../Ild-Music.ShareInstances/ShareInstances.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -521,11 +521,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ild_music\\zzz\\Ild-Music\\dependencies\\Ild-Music.NAudioPlayerCore\\Ild-Music-Core.csproj",
+      "projectUniqueName": "E:\\ild_music\\Ild-Music\\dependencies\\Ild-Music.NAudioPlayerCore\\Ild-Music-Core.csproj",
       "projectName": "Ild-Music-Core",
-      "projectPath": "E:\\ild_music\\zzz\\Ild-Music\\dependencies\\Ild-Music.NAudioPlayerCore\\Ild-Music-Core.csproj",
+      "projectPath": "E:\\ild_music\\Ild-Music\\dependencies\\Ild-Music.NAudioPlayerCore\\Ild-Music-Core.csproj",
       "packagesPath": "C:\\Users\\ildar\\.nuget\\packages\\",
-      "outputPath": "E:\\ild_music\\zzz\\Ild-Music\\dependencies\\Ild-Music.NAudioPlayerCore\\obj\\",
+      "outputPath": "E:\\ild_music\\Ild-Music\\dependencies\\Ild-Music.NAudioPlayerCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ildar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -540,8 +540,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\ild_music\\zzz\\Ild-Music\\Ild-Music.ShareInstances\\ShareInstances.csproj": {
-              "projectPath": "E:\\ild_music\\zzz\\Ild-Music\\Ild-Music.ShareInstances\\ShareInstances.csproj",
+            "E:\\ild_music\\Ild-Music\\dependencies\\Ild-Music.ShareInstances\\ShareInstances.csproj": {
+              "projectPath": "E:\\ild_music\\Ild-Music\\dependencies\\Ild-Music.ShareInstances\\ShareInstances.csproj",
               "excludeAssets": "runtime"
             }
           }

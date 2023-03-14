@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fdh5+shxjf/a79K5OXV3qq5rPSMBsJWktZBHzBWLLCoCAdf/O7e6YqkeXuzu9SbuIFpPEg+KkQf+UWFeH7JsfQ==",
+  "dgSpecHash": "2WGdyVXtwtSOELckiWQjBWandeKyIE68FoddPNt1DHjEhC4ljnutbCAfzlFEbzUXCx36oJM7TzojCIz1YzFjiw==",
   "success": true,
-  "projectFilePath": "E:\\ild_music\\zzz\\Ild-Music\\dependencies\\Ild-Music.NAudioPlayerCore\\Ild-Music-Core.csproj",
+  "projectFilePath": "E:\\ild_music\\Ild-Music\\dependencies\\Ild-Music.NAudioPlayerCore\\Ild-Music-Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ildar\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ildar\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

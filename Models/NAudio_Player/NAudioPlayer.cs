@@ -47,7 +47,7 @@ namespace NAudioPlayerCore.Models
         #endregion
 
         #region Volume Presenters
-        public float MaxVolume {get; private set;} = 100;
+        public float MaxVolume {get; private set;} = 1;
         public float MinVolume {get; private set;} = 0;
         public float CurrentVolume 
         {
