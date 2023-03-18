@@ -1,6 +1,7 @@
 using ShareInstances;
 using ShareInstances.Instances;
 using ShareInstances.Instances.Interfaces;
+using ShareInstances.StoreSpace;
 
 using NAudio;
 using NAudio.Wave;
@@ -15,6 +16,10 @@ public class NAudioPlayer : IPlayer
     #region Player Indentity Properties
     public Guid PlayerId => Guid.NewGuid();
     public string PlayerName => "NAudio Player ";
+    #endregion
+
+    #region Store Instances
+    public Store StoreInstance {get; private set;}
     #endregion
 
     #region Player Resource Properties
@@ -68,6 +73,12 @@ public class NAudioPlayer : IPlayer
     public NAudioPlayer()
     {}
 
+
+    public void DetermineStore(ref Store store)
+    {
+        StoreInstance = store;
+    }
+
     public void SetInstance(ICoreEntity entity, int index=0)
     {
         CleanUpPlayer();
@@ -81,7 +92,7 @@ public class NAudioPlayer : IPlayer
         }
         else if(entity is Playlist playlist)
         {
-            Collection = playlist.GetTracks();
+            Collection = StoreInstance.GetTracksById(playlist.Tracks);
             PlaylistPoint = index;
             CurrentEntity = (ICoreEntity)Collection[PlaylistPoint];
             InitAudioPlayer(PlaylistPoint);
