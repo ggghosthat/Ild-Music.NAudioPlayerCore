@@ -84,7 +84,6 @@ public class NAudioPlaybacker
             _device.Init(wc);
             _device.Volume = Volume;
         }
-        Console.WriteLine($"{CurrentTrack == null} --- {_device == null} --- {_reader == null}");
     }
 
     public void Play()
