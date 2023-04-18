@@ -2,6 +2,7 @@ using ShareInstances;
 using ShareInstances.Instances;
 using ShareInstances.Instances.Interfaces;
 using ShareInstances.StoreSpace;
+using ShareInstances.Filer;
 
 using NAudio;
 using NAudio.Wave;
@@ -87,7 +88,6 @@ public class NAudioPlayer : IPlayer
         {
             CurrentEntity = (ICoreEntity)track;
             InitAudioPlayer();
-
             IsEmpty = false;
         }
         else if(entity is Playlist playlist)
@@ -100,6 +100,23 @@ public class NAudioPlayer : IPlayer
             IsEmpty = false;
             IsSwipe = true;
         }
+    }
+
+    public void SetRoad(MusicFile musicFile)
+    {
+        CurrentEntity = musicFile.MusicFileConvertTrack();
+        InitAudioPlayer();
+        IsEmpty = false;
+    }
+
+    public void SetRoad(IEnumerable<MusicFile> musicFiles)
+    {
+        Collection = musicFiles.MusicFileConvertPlaylist().Temps;
+        PlaylistPoint = 0;
+        CurrentEntity = (ICoreEntity)Collection[PlaylistPoint];
+        InitAudioPlayer(PlaylistPoint);
+        IsEmpty = false;
+        IsSwipe = true;
     }
 
     #endregion
